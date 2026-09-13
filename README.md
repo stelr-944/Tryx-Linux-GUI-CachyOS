@@ -479,7 +479,7 @@ sudo dnf install --allowerasing ./tryx-panorama-manager-2.3.0-1.fc$tryx_fedora_r
 sudo apt install ./tryx-panorama-manager_2.3.0-1_amd64.deb
 
 # Arch Linux
-sudo pacman -U ./tryx-panorama-manager-2.3.0-1-x86_64.pkg.tar.zst
+sudo pacman -U ./tryx-panorama-manager-2.3.0-2-x86_64.pkg.tar.zst
 ```
 
 These commands use the distribution package manager to resolve and download

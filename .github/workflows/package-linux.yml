@@ -479,7 +479,7 @@ jobs:
           popd >/dev/null
 
           package_file=$(find packaging/arch -maxdepth 1 -type f \
-            -name "tryx-panorama-manager-$version-1-x86_64.pkg.tar.zst" \
+            -name "tryx-panorama-manager-$version-2-x86_64.pkg.tar.zst" \
             -print -quit)
           test -n "$package_file"
 

@@ -97,7 +97,7 @@ jobs:
           )
           mapfile -t arch_files < <(
             find release-assets -maxdepth 1 -type f \
-              -name "tryx-panorama-manager-$version-1-x86_64.pkg.tar.zst" |
+              -name "tryx-panorama-manager-$version-2-x86_64.pkg.tar.zst" |
               LC_ALL=C sort
           )
           mapfile -t source_files < <(
