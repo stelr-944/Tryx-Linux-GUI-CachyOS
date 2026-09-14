@@ -1,5 +1,17 @@
 # TRYX Panorama Linux GUI
 
+## CachyOS / Arch Linux
+
+This fork updates the original project for CachyOS/Arch Linux with updated dependencies and a prebuilt package release.
+
+### Install
+
+Download the latest `.pkg.tar.zst` from the Releases page, then install it with:
+
+```bash
+sudo pacman -U tryx-panorama-manager-2.3.0-2-x86_64.pkg.tar.zst
+```
+
 Linux-only Qt 6 Quick application for managing compatible TRYX cooler
 displays, including Panorama models and the Turris 620.
 
